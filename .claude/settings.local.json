@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(while read dir)",
+      "Bash(do echo \"$dir\")",
+      "Read(//d/Desktop/winter_holiday/tool/**)",
+      "Bash(conda run -n py312 python train_mnist.py --train --epochs 3 --model-path models/test_model.pth)",
+      "Bash(conda run -n py312 python test_load_model.py)"
+    ]
+  }
+}
